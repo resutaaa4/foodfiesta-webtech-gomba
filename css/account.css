@@ -1,0 +1,130 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 7vh;
+    background-color: rgb(181,185,93, 0.55);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.header a:hover{
+    color: red;
+}
+body{
+    background-image: url(/images/image.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+   
+}
+
+.header-content a{
+    text-decoration: none;
+}
+.teksd{
+    display: flex;
+    gap: 150px;
+    margin-right: 50px;
+    
+}
+.teksd a{
+
+    color: white;
+   
+}
+.teksd li{
+    list-style: none;
+}
+.headerf{
+    text-decoration: none;
+    color: white;
+    padding-left: 30px;
+}
+.login{
+    background-color: rgb(0,0,0, 0.55);
+    height: 80vh;
+    display: flex;
+    width: 35%;
+    align-self: center;
+    margin-top: 50px;
+    border-radius: 10px;
+   color: white;
+   flex-direction: column;
+    
+}
+.login h2{
+    align-self: center;
+    align-items: center;
+    font-weight: 100;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 800;
+}
+form{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.email{
+    align-self: center;
+    width: 70%;
+    margin-left: 50px;
+    height: 5vh;
+    border-radius: 10px;
+}
+#email::placeholder{
+    text-align: center;
+}
+.password{
+    align-self: center;
+    width: 70%;
+    margin-left: 50px;
+    height: 5vh;
+    border-radius: 10px;
+}
+#password::placeholder{
+    text-align: center;
+}
+.submit{
+    background-color: greenyellow;
+    align-self: center;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-top: 30px;
+    color: white;
+    font-weight:900;
+    text-shadow: 1px 1px black;
+}
+.maryin{
+    font-size: 25px;
+     padding-left: 100px;
+      margin-bottom: 20px;
+}
+.submit:hover{
+    transform: scale(1.1);
+}

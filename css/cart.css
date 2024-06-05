@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 7vh;
+    background-color: rgb(181,185,93, 0.55);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.header a:hover{
+    color: red;
+}
+body{
+    background-image: url(/images/image.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+   
+}
+
+.header-content a{
+    text-decoration: none;
+}
+.teksd{
+    display: flex;
+    gap: 150px;
+    margin-right: 50px;
+    
+}
+.teksd a{
+
+    color: white;
+   
+}
+.teksd li{
+    list-style: none;
+}
+.headerf{
+    text-decoration: none;
+    color: white;
+    padding-left: 30px;
+}
+.kart{
+    background-color: rgb(0,0,0,0.5);
+    height: 50vh;
+    display: flex;
+    align-self: center;  
+    width: 70%;
+    border-radius: 10px;
+    color: white;
+    margin-top: 90px;
+    flex-direction: column;
+}
+.kart h1{
+    padding-top: 20px;
+    align-self: center;
+}
+.kuntent{
+    height: 20vh;
+    background-color: #FF0000;
+    width: 40%;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid black;
+    align-self: center;
+    margin-top: 50px;
+    align-items: center; 
+}
+.kuntent h1{
+    padding-bottom: 15px;
+}
+.kuntent a{
+    text-decoration: none;
+    color: white;
+}
+.imahe{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+}
+.imahe img{
+    
+    width: 10%;
+    align-self: center;
+}
+.kuntent:hover{
+    transform: scale(1.1);
+}

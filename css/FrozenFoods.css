@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6); 
+    z-index: -1; 
+}
+.header{
+    height: 7vh;
+    background-color: rgb(181,185,93, 0.55);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.header a:hover{
+    color: red;
+}
+body{
+ 
+    background-image: url(/images/image.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+   
+}
+
+.header-content a{
+    text-decoration: none;
+}
+.teksd{
+    display: flex;
+    gap: 150px;
+    margin-right: 50px;
+    
+}
+.teksd a{
+
+    color: white;
+   
+}
+.teksd li{
+    list-style: none;
+}
+.headerf{
+    text-decoration: none;
+    color: white;
+    padding-left: 30px;
+}
+.products img{
+   height: 100%;
+   width: 100%;
+   padding-top: 30px;
+}
+.pasikatf{
+    display: flex;
+    justify-content: space-evenly;
+}
+.pasikat5 a{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.pasikat5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10%;
+}
+button:hover{
+    transform: scale(1.1);
+}
+.pasikat5 p{
+    color: white;
+    text-align: center;
+}
+button{
+    background-color: rgb(185, 19, 19);
+    border-radius: 10px;
+    padding: 5px;
+}

@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 7vh;
+    background-color: rgb(181,185,93, 0.55);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.header a:hover{
+    color: red;
+}
+body{
+    background-image: url(/images/image.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+   
+}
+
+.header-content a{
+    text-decoration: none;
+}
+.teksd{
+    display: flex;
+    gap: 150px;
+    margin-right: 50px;
+    
+}
+.teksd a{
+
+    color: white;
+   
+}
+.teksd li{
+    list-style: none;
+}
+.headerf{
+    text-decoration: none;
+    color: white;
+    padding-left: 30px;
+}
+.abc{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-self: center; 
+    color: white;
+    height: 40vh;
+}
+.abc p{
+    text-shadow: 3px  3px  black;
+    font-size: 40px;
+}
+.imahe{
+    margin-top: 10px;
+    display: flex;
+   align-self: center;
+}
+
+.imahe img{
+    
+    align-items: center ;
+    display: flex;
+    margin-right: 40px;
+
+}
