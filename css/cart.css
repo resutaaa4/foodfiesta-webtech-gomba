@@ -11,6 +11,7 @@
     flex-direction: row;
     align-items: center;
     
+    
 }
 .header a:hover{
     color: red;
@@ -75,6 +76,7 @@ ul li a{
     align-self: center;
 }
 .kuntent{
+    transition: all 0.2s ease-in-out;
     height: 20vh;
     background-color: #FF0000;
     width: 40%;

@@ -22,6 +22,7 @@ body{
     height: 100vh;
     display: flex;
     flex-direction: column;
+   
 }
 
 ul li a{
@@ -78,13 +79,21 @@ ul li a{
     margin-top: 10px;
     display: flex;
    align-self: center;
-   background-color: rgb(181,185,93, 0.8);
+   background-color: rgba(255, 255, 255, 0.8);
+   padding: 0px 20px;
+   gap: 20px;
    border-radius: 10px;
    flex-direction: row;
    align-items: center;
+   
 }
-.imahe img{
-    margin-left: 30px;
-    margin-right: 40px;
-
+.imahe a{
+    text-decoration: underline transparent;
+    font-size: 25px;
+    color: black;
+    transition: all 0.2s ease-in-out;
+}
+.imahe a:hover{
+    text-decoration: underline;
+    transform: scale(1.2);
 }
